@@ -1,3 +1,8 @@
+# This Program replaces each and ever letter in a given string or word to its numerical equivalent
+# Example : "a" = 1, "b" = 2, etc.
+
+
+
 def alphabet_position(text):
     list1 = []
     list1[:0] = text.lower()
@@ -16,8 +21,7 @@ def alphabet_position(text):
     return ' '.join(str(x) for x in alphabetPosition)
 
 
-string = "The sunset sets at twelve o' clock."
+string = input("Enter the desired sentence : ")
 result = alphabet_position(string)
 print(result)
-
 
